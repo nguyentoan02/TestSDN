@@ -9,6 +9,7 @@ const UserSchema = new mongoose.Schema({
 
     
     //k thich de day nua 
+            
     role: { type: String, enum: ['user', 'admin'], default: 'user' }
 });
 
